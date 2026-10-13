@@ -1,39 +1,39 @@
 const stocks = [
   {
-    code: "TF-101", name: "ネオグリッド", initials: "N", sector: "クリーンテック",
+    code: "5253", name: "カバー", initials: "C", sector: "エンタメ・IP",
     marketCap: 86, growth: 38.4, margin: 16.2, per: 31.4, color: "#3b9270",
     factors: { growth: 92, profitability: 78, durability: 81, financial: 74, runway: 89 },
-    outlook: "再生可能エネルギー管理ソフトの需要拡大を想定。高成長の一方で、成長投資と競争環境の変化に注目。"
+    outlook: "実際の業績や事業内容に基づく分析コメントは、このデモでは提供していません。"
   },
   {
-    code: "TF-204", name: "オービットAI", initials: "O", sector: "ソフトウェア",
+    code: "5574", name: "ABEJA", initials: "A", sector: "AI・ソフトウェア",
     marketCap: 142, growth: 54.2, margin: 12.8, per: 48.6, color: "#697fc2",
     factors: { growth: 98, profitability: 67, durability: 70, financial: 82, runway: 94 },
-    outlook: "企業向けAI基盤の利用拡大を想定。高い成長率に対して、利益率の改善と顧客定着率が重要な確認点。"
+    outlook: "実際の業績や事業内容に基づく分析コメントは、このデモでは提供していません。"
   },
   {
-    code: "TF-318", name: "メディカループ", initials: "M", sector: "ヘルステック",
+    code: "5586", name: "Laboro.AI", initials: "L", sector: "AI・ソフトウェア",
     marketCap: 64, growth: 27.6, margin: 19.4, per: 26.8, color: "#bd7586",
     factors: { growth: 79, profitability: 86, durability: 87, financial: 88, runway: 76 },
-    outlook: "医療機関向け業務支援の導入拡大を想定。安定した収益性と、継続課金モデルの維持が見どころ。"
+    outlook: "実際の業績や事業内容に基づく分析コメントは、このデモでは提供していません。"
   },
   {
-    code: "TF-427", name: "フロウロジ", initials: "F", sector: "物流テック",
+    code: "5254", name: "Arent", initials: "A", sector: "ソフトウェア",
     marketCap: 39, growth: 32.1, margin: 8.7, per: 37.2, color: "#bd9250",
     factors: { growth: 84, profitability: 53, durability: 73, financial: 69, runway: 86 },
-    outlook: "物流現場の自動化需要を想定。事業拡大に伴う利益率の改善ペースと、設備投資の負担を確認。"
+    outlook: "実際の業績や事業内容に基づく分析コメントは、このデモでは提供していません。"
   },
   {
-    code: "TF-536", name: "クラフトクラウド", initials: "C", sector: "SaaS",
+    code: "5591", name: "AVILEN", initials: "A", sector: "AI・ソフトウェア",
     marketCap: 118, growth: 22.8, margin: 24.3, per: 29.1, color: "#7d69a8",
     factors: { growth: 72, profitability: 94, durability: 88, financial: 91, runway: 71 },
-    outlook: "中小企業の業務クラウド化を想定。良好な利益率に加え、新規顧客獲得と解約率の推移が焦点。"
+    outlook: "実際の業績や事業内容に基づく分析コメントは、このデモでは提供していません。"
   },
   {
-    code: "TF-642", name: "アトラス素材", initials: "A", sector: "先端素材",
+    code: "5132", name: "pluszero", initials: "P", sector: "AI・ソフトウェア",
     marketCap: 52, growth: 18.5, margin: 14.7, per: 21.6, color: "#538d9b",
     factors: { growth: 66, profitability: 74, durability: 78, financial: 85, runway: 69 },
-    outlook: "電池向け機能性素材の需要拡大を想定。顧客企業の生産計画や原材料価格の変化に注意が必要。"
+    outlook: "実際の業績や事業内容に基づく分析コメントは、このデモでは提供していません。"
   }
 ];
 
@@ -141,7 +141,7 @@ function renderAnalysis(stock) {
       <div class="analysis-metric"><span>時価総額</span><strong>¥${stock.marketCap}億</strong></div>
     </div>
     <div class="analysis-outlook"><div class="outlook-title"><span></span>注目ポイント</div><p>${stock.outlook}</p></div>
-    <p class="analysis-caveat">スコアは成長性・収益性・競争優位性・財務健全性・市場の成長余地を加重評価したサンプル指標です。将来の株価や運用成果を示すものではありません。</p>`;
+    <p class="analysis-caveat">表示中の数値・スコアはすべて架空のサンプルです。実際の業績や株価、投資判断には利用できません。</p>`;
 }
 
 function render() {
